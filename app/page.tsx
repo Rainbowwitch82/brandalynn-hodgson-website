@@ -1,34 +1,33 @@
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import HeroBackground from "@/components/HeroBackground";
+import Hero from "@/components/Hero";
+import UniverseQuote from "@/components/UniverseQuote";
+import ExploreTheBayouUniverse from "@/components/ExploreTheBayouUniverse";
+import Timeline from "@/components/Timeline";
+import FeaturedBooks from "@/components/FeaturedBooks";
+import Newsletter from "@/components/Newsletter";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#06131A] text-white flex flex-col items-center justify-center">
+    <>
+      <Navbar />
 
-      <h1 className="text-7xl font-serif font-bold text-amber-100">
-        Brandalynn Hodgson
-      </h1>
+      <HeroBackground>
+        <Hero />
+      </HeroBackground>
 
-      <p className="mt-6 text-2xl text-amber-200">
-        Stories Woven from the Bayou
-      </p>
+      <UniverseQuote />
 
-      <p className="mt-10 text-center max-w-2xl text-gray-300 text-lg px-8">
-        Beneath the moss and moonlight, every path leads to a different story.
-        Choose your journey.
-      </p>
+      <ExploreTheBayouUniverse />
 
-      <div className="mt-16 flex gap-8">
+      <Timeline />
 
-        <button className="rounded-full border border-yellow-400 px-8 py-4 hover:bg-yellow-400 hover:text-black transition">
-          🌸 Little Bayou Veil
-        </button>
+      <FeaturedBooks />
 
-        <button className="rounded-full border border-gray-400 px-8 py-4 hover:bg-white hover:text-black transition">
-          🖤 Bayou Veil
-        </button>
+      <Newsletter />
 
-      </div>
-
-    </main>
+      <Footer />
+    </>
   );
 }
