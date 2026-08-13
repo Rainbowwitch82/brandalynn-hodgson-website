@@ -8,7 +8,7 @@ import CharacterCard from "@/components/CharacterCard";
 const characters = [
   {
     name: "Großmutter Adelheid",
-    title: "Grandmother • Großmutter",
+    role: "Grandmother • Großmutter",
     description:
       "The keeper of family traditions and the guardian of stories that were never meant to be forgotten. Adelheid carries the wisdom of generations and understands that some promises survive longer than the people who make them.",
     image: "/images/stories/characters/adelheid-schexnaydre.png",
@@ -16,7 +16,7 @@ const characters = [
   },
   {
     name: "Johann Schexnaydre",
-    title: "Father • Vater",
+    role: "Father • Vater",
     description:
       "A devoted husband, father, and provider determined to build a future for his family in Louisiana. Johann carries the weight of his family's legacy while facing an uncertain new world.",
     image: "/images/stories/characters/johann-schexnaydre.png",
@@ -24,7 +24,7 @@ const characters = [
   },
   {
     name: "Elise Schexnaydre",
-    title: "Mother • Mutter",
+    role: "Mother • Mutter",
     description:
       "The heart of the Schexnaydre family. Elise carries the traditions, healing knowledge, and love of her homeland with her as she begins a new life across the Atlantic.",
     image: "/images/stories/characters/elise-schexnaydre.png",
@@ -32,7 +32,7 @@ const characters = [
   },
   {
     name: "Reinhard 'Rein' Schexnaydre",
-    title: "Son • Sohn",
+    role: "Son • Sohn",
     description:
       "At thirteen, Rein is Lena's older brother and already feels the responsibility of protecting his family. Serious, observant, and loyal, he is learning what it means to carry a family legacy.",
     image: "/images/stories/characters/reinhard-schexnaydre.png",
@@ -40,7 +40,7 @@ const characters = [
   },
   {
     name: "Magdalena 'Lena' Schexnaydre",
-    title: "Daughter • Tochter",
+    role: "Daughter • Tochter",
     description:
       "Eleven-year-old Lena is curious, compassionate, and drawn toward the mysteries surrounding her family. Her journey begins with a treasured heirloom and a story much older than she realizes.",
     image: "/images/stories/characters/lena-schexnaydre.png",
