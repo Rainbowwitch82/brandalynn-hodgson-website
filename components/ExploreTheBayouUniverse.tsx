@@ -9,7 +9,7 @@ const series = [
     tagline: "Enter the Veil",
     description:
       "Walk beside Seraphina as ancient magic awakens beneath the moss and forgotten promises return.",
-    image: "/images/stories/bayou-veil.png",
+    image: "/images/stories/bayou-veil/bayou-veil-cover.png",
     href: "/stories/bayou-veil",
   },
   {
@@ -33,7 +33,7 @@ const series = [
     tagline: "Meet the Heir",
     description:
       "Generations later, a mysterious child awakens a legacy that could reshape the Bayou forever.",
-    image: "/images/stories/the-bayou-heir.png",
+    image: "/images/stories/bayou-heir/the-bayou-heir.png",
     href: "/stories/bayou-heir",
   },
   {

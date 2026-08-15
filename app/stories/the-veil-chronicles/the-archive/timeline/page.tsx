@@ -131,23 +131,30 @@ export default function TimelinePage() {
 
           {/* Navigation */}
 
-          <div className="mt-20 flex flex-wrap justify-center gap-6">
+  <div className="mt-20 flex flex-wrap justify-center gap-6">
 
-            <Link
-              href="/stories/the-veil-chronicles/archive"
-              className="rounded-full border border-[#E8D6A8] px-8 py-4 text-[#E8D6A8] transition hover:bg-[#E8D6A8] hover:text-[#07161D]"
-            >
-              ← Back to Archive
-            </Link>
+      <Link
+        href="/stories/the-veil-chronicles/the-archive"
+        className="rounded-full border border-[#E8D6A8] px-8 py-4 text-[#E8D6A8] transition hover:bg-[#E8D6A8] hover:text-[#07161D]"
+      >
+        📜 Return to Archive
+      </Link>
 
-            <Link
-              href="/stories/the-veil-chronicles/archive/heirlooms"
-              className="rounded-full bg-[#E8D6A8] px-8 py-4 font-semibold text-[#07161D] transition hover:scale-105"
-            >
-              Explore Heirlooms →
-            </Link>
+      <Link
+        href="/stories/the-veil-chronicles"
+        className="rounded-full border border-[#E8D6A8] px-8 py-4 text-[#E8D6A8] transition hover:bg-[#E8D6A8] hover:text-[#07161D]"
+      >
+        🏛 Return to The Veil Chronicles
+      </Link>
 
-          </div>
+      <Link
+        href="/stories/the-veil-chronicles/the-archive/heirlooms"
+        className="rounded-full bg-[#E8D6A8] px-8 py-4 font-semibold text-[#07161D] transition hover:scale-105"
+      >
+        Explore Heirlooms →
+      </Link>
+
+    </div>
 
         </div>
       </main>

@@ -24,7 +24,7 @@ const featuredBooks = [
     tagline: "In Development",
     description:
       "Seraphina's journey begins as hidden family secrets and ancient bayou magic awaken beneath the moss, forever changing her understanding of her family's past.",
-    image: "/images/stories/bayou-veil.png",
+    image: "/images/stories/bayou-veil/beneath-the-moss.png",
     href: "/books/bayou-veil/beneath-the-moss",
   },
 ];

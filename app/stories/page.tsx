@@ -11,7 +11,7 @@ const series = [
     tagline: "Enter the Veil",
     description:
       "Walk beside Seraphina as ancient magic awakens beneath the moss and forgotten promises return.",
-    image: "/images/stories/bayou-veil.png",
+    image: "/images/stories/bayou-veil/bayou-veil-cover.png",
     href: "/stories/bayou-veil",
   },
   {
